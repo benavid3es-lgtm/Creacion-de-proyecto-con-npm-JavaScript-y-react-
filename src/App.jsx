@@ -7,13 +7,15 @@ function App() {
   return (
     <div className="main-container">
       {/*Componente Título */}
-      <Titulo />
-
-      {/*Componente Tarjetas */}
-      <Tarjetas />
+      <Titulo></Titulo>
 
       {/*Componente Tabla */}
-      <Tabla />
+      <Tabla></Tabla>
+
+      {/*Componente Tarjetas */}
+      <Tarjetas></Tarjetas>
+
+      
     </div>
   );
 }
